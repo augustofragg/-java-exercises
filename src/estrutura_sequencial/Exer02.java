@@ -16,6 +16,6 @@ public class Exer02 {
         System.out.printf("A=%.4f",areaCircle);
 
 
-
+        sc.close();
     }
 }
