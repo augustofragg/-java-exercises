@@ -1,4 +1,4 @@
-package estrutura_sequencial;
+package java_basic.estrutura_sequencial;
 
 import java.util.Locale;
 import java.util.Scanner;

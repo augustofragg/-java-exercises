@@ -1,4 +1,4 @@
-package estrutura_sequencial;
+package java_basic.estrutura_condicional;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -8,12 +8,14 @@ public class Exer02 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        double pi = 3.14159;
-        double raio = sc.nextDouble();
+        int num = sc.nextInt();
 
-        double areaCircle = pi * (raio * raio);
-
-        System.out.printf("A=%.4f",areaCircle);
+        if(num % 2 == 0) {
+            System.out.println("PAR");
+        }
+        else {
+            System.out.println("IMPAR");
+        }
 
 
         sc.close();
